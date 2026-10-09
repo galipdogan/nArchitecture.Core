@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
@@ -44,5 +44,6 @@
     <ProjectReference Include="..\Core.CrossCuttingConcerns.Logging\Core.CrossCuttingConcerns.Logging.csproj" />
     <ProjectReference Include="..\Core.CrossCuttingConcerns.Exception\Core.CrossCuttingConcerns.Exception.csproj" />
     <ProjectReference Include="..\Core.Security\Core.Security.csproj" />
+    <ProjectReference Include="..\Core.Localization.Abstraction\Core.Localization.Abstraction.csproj" />
   </ItemGroup>
 </Project>
